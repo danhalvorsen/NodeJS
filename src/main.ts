@@ -3,5 +3,3 @@ export class Foo {
         return f1 + f2;
     }
 }
-
-

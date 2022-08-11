@@ -1,20 +1,25 @@
 {
   "name": "maketemplate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Playing With Abstract Syntax Tree ",
+  "main": "./dist/example/basic.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node ./dist/example/basic.js",
+    "basic": "tsc && ./dist/example/basic.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Dan Edvard Halvorsen",
+  "license": "MIT",
+  "bin": {
+    "hello": "./dist/example/basic.js"
+  },
   "devDependencies": {
     "@types/node": "^18.6.5",
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "ast-types": "^0.14.2"
+    "abstract-syntax-tree": "^2.20.6"
   }
 }

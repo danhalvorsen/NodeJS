@@ -5,7 +5,7 @@
   "main": "./dist/example/basic.js",
   "scripts": {
     "test": "jest --config --verbose",
-    "build": "tsc",
+    "build": "tsc --build --clean",
     "start": "node ./dist/example/basic.js",
     "basic": "tsc && ./dist/example/basic.js",
     "format": "prettier --write ./**/*.{js,ts}"
